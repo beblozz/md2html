@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Пример</title>
+<link rel="stylesheet" href="../web/style.css">
+</head>
+<body>
+<main class="markdown-body">
+<h1>Мой первый документ</h1>
+<p>Это пример файла для программы <strong>md2html</strong>. Он показывает всё, что умеет парсер.</p>
+<h2>Текст</h2>
+<p>Обычный абзац с <strong>жирным</strong> и <em>курсивом</em>, а ещё со ссылкой на <a href="https://github.com">GitHub</a>.</p>
+<p>Команда для запуска: <code>md2html example.md &gt; example.html</code>.</p>
+<h2>Списки</h2>
+<p>Что уже работает:</p>
+<ul>
+<li>заголовки</li>
+<li>списки</li>
+<li>блоки кода</li>
+<li>ссылки</li>
+</ul>
+<p>Как собрать проект:</p>
+<ol>
+<li>Скачать репозиторий</li>
+<li>Запустить <code>cmake</code></li>
+<li>Запустить программу</li>
+</ol>
+<h2>Код</h2>
+<pre><code class="language-cpp">#include &lt;iostream&gt;
+
+int main() {
+    std::cout &lt;&lt; &quot;Hello, Markdown!&quot; &lt;&lt; std::endl;
+    return 0;
+}
+</code></pre>
+<h2>Цитата</h2>
+<blockquote>
+<p>Простое лучше сложного.</p>
+</blockquote>
+<hr>
+<p>Конец документа.</p>
+</main>
+</body>
+</html>
